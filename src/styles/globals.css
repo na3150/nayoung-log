@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'happy-brown-cat';
+  src: url('../fonts/Happy_brown_cat.ttf') format('truetype');
+}
+
 html {
   font-family: Pretendard, Roboto, sans-serif;
   --scrollbarBG: #ffffff00;
@@ -32,6 +37,8 @@ body::-webkit-scrollbar-thumb {
   align-items: stretch;
   justify-content: flex-start;
   flex-direction: column;
+  /* background color */
+  background-color: #EFF7FA;
 }
 
 .sticky-nav {
@@ -56,6 +63,9 @@ body::-webkit-scrollbar-thumb {
   opacity: 1;
   /* opacity: 0; */
   overflow: hidden;
+  /* title font */
+  font-family: 'happy-brown-cat';
+  font-size: xx-large;
 }
 
 .sticky-nav-full .nav {

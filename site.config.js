@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "nayoung",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/nyimg.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "devops engineer",
     bio: "Hi! I'm nayoung.",
     email: "na3150@gmail.com",
@@ -18,7 +18,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "nayoung-log",
+    title: "☁️ nayoung-log ☁️",
     description: "welcome to nayoung-log!",
     theme: "light", // ['light', 'dark', 'auto']
   },
