@@ -3,9 +3,11 @@ import React from "react"
 import {
   AiOutlineInstagram,
   AiOutlineGithub,
-  AiOutlineMail,
-  AiFillLinkedin,
+  AiOutlineRead
 } from "react-icons/ai"
+// import {
+//   RxNotionLogo,
+// } from "react-icons/rx";
 
 const ContactCard: React.FC = () => {
   return (
@@ -23,37 +25,15 @@ const ContactCard: React.FC = () => {
             <div className="text-sm">github</div>
           </a>
         )}
-        {CONFIG.profile.instagram && (
+        {CONFIG.profile.notion && (
           <a
-            href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
-            rel="noreferrer"
-            target="_blank"
-            className="p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
-          >
-            <AiOutlineInstagram className="text-2xl" />
-            <div className="text-sm">instagram</div>
-          </a>
-        )}
-        {CONFIG.profile.email && (
-          <a
-            href={`mailto:${CONFIG.profile.email}`}
+            href={`${CONFIG.profile.notion}`}
             rel="noreferrer"
             target="_blank"
             className="overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
           >
-            <AiOutlineMail className="text-2xl flex-shrink-0" />
-            <div className="text-sm">email</div>
-          </a>
-        )}
-        {CONFIG.profile.linkedin && (
-          <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
-            rel="noreferrer"
-            target="_blank"
-            className="  overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
-          >
-            <AiFillLinkedin className="text-2xl flex-shrink-0" />
-            <div className="text-sm">linkedin</div>
+            <AiOutlineRead className="text-2xl flex-shrink-0" />
+            <div className="text-sm">notion</div>
           </a>
         )}
       </ul>
@@ -62,3 +42,4 @@ const ContactCard: React.FC = () => {
 }
 
 export default ContactCard
+
