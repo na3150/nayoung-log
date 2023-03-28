@@ -1,25 +1,26 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "nayoung",
+    name: "JUJY",
     image: "/nyimg.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "devops engineer",
-    bio: "Hi! I'm nayoung.",
+    bio: "Hi! We are JUJY 👋",
     email: "na3150@gmail.com",
     linkedin: "nayoungsung",
-    github: "na3150",
+    notion: "https://cloudclub.notion.site/f9da849b1e0c435ea7c3cc90b91a8ae0?v=7818918f26dc4b4a8e853551f808e940",
+    github: "cloud-club/JUJY-LOG",
     instagram: "",
   },
   projects: [
     {
-      name: `nayoung-log`,
-      href: "https://github.com/na3150/nayoung-log",
+      name: `jujy-log`,
+      href: "https://github.com/cloud-club/JUJY-LOG",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "☁️ nayoung-log ☁️",
-    description: "welcome to nayoung-log!",
+    title: "☁️ jujy-log ☁️",
+    description: "welcome to jujy-log!",
     theme: "light", // ['light', 'dark', 'auto']
   },
 
