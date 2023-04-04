@@ -7,7 +7,7 @@ COPY package.json ./
 COPY yarn.lock ./
 
 #env setting ; 각자의 NOTION_PAGE_ID로
-ENV NOTION_PAGE_ID 7a04f00cdc724fdbb7ddc9eaba18afbb
+ENV NOTION_PAGE_ID f9da849b1e0c435ea7c3cc90b91a8ae0
 
 #의존성 설치
 RUN yarn
